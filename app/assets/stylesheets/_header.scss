@@ -1,0 +1,16 @@
+@import "foundation_and_overrides.scss";
+
+header{
+  .name {
+    max-width: 500px;
+  }
+
+  li.active a{
+    color: $secondary-color !important;
+  }
+
+  li a{
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+  }
+}
