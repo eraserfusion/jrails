@@ -96,8 +96,9 @@ $font-weight-normal: normal !default;
 $font-weight-bold: bold !default;
 
 // We use these as default colors throughout
-$primary-color: #ffee10;
-$secondary-color: #333333;
+$primary-color: #767007; //ffee10
+$secondary-color: #333333; //
+
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
@@ -951,9 +952,9 @@ $h6-font-reduction: 0 !default;
 $include-html-panel-classes: $include-html-classes;
 
 // We use these to control the background and border styles
-$panel-bg: #6c6c6c;
+$panel-bg: #cac783;
 $panel-border-style: solid;
-// $panel-border-size: 1px;
+$panel-border-size: 1px;
 
 // We use this % to control how much we darken things on hover
 $panel-function-factor: -11%;

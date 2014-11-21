@@ -5,4 +5,8 @@ Rails.application.routes.draw do
 
   mount Spree::Core::Engine, :at => '/'
 
+  # Spree::Core::Engine.routes.prepend do
+  #   get 'archive' => 'static_pages#archive'
+  # end
+
 end
