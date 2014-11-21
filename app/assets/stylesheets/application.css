@@ -16,7 +16,10 @@
 
  */
 
- @import "foundation_and_overrides";
+
  @import "header";
  @import "footer";
+ @import "store";
  @import "global";
+ @import "archive";
+ @import "foundation_and_overrides";

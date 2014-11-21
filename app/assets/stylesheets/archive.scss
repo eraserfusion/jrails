@@ -1,0 +1,17 @@
+#archive.panel {
+  img {
+    //float: left;
+    //width: 30%;
+    //height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+
+    &.special-45 {
+      float: right !important;
+      width: 30%;
+      margin-top: -10px;
+    }
+  }
+
+  overflow: auto;
+}
