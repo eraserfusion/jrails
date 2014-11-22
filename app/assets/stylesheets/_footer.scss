@@ -1,0 +1,15 @@
+@import "foundation_and_overrides";
+
+footer {
+  
+  background-color: $secondary-color;
+  border-top:    15px solid $primary-color;
+  border-bottom: 15px solid $primary-color;
+
+  height: 150px;
+  color: #cac783;
+
+  p {
+    padding-top: 20px;
+  }
+}

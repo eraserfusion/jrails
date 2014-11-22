@@ -2,16 +2,36 @@
 
 header{
 
+  nav.top-bar {
+    border-bottom: 2px solid $primary-color;
+    background: #85876d; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #85876d 0%, #b6b786 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#85876d), color-stop(100%,#b6b786)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #85876d 0%,#b6b786 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #85876d 0%,#b6b786 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #85876d 0%,#b6b786 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #85876d 0%,#b6b786 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#85876d', endColorstr='#b6b786',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  }
+
+  .top-bar-section ul li {
+    background: rgba($white, 0);
+  }
+
   .name {
     max-width: 500px;
   }
 
-  li.active a{
-    color: $secondary-color !important;
-  }
+  li{
+    a {
+      font-size: 1rem !important;
+      font-weight: 600 !important;
+    }
 
-  li a{
-    font-size: 1rem !important;
-    font-weight: 600 !important;
+    a.active {
+      color: $secondary-color !important;
+      background-color: rgba($primary-color, .2) !important;
+    }
   }
 }
