@@ -1,0 +1,12 @@
+<nav>
+  <ul id="main-nav-bar" class="inline-list" data-hook>
+    <li id="home-link" class="left" data-hook><%= link_to Spree.t(:home), spree.root_path %></li>
+    <li id="link-to-cart" class="right" data-hook>
+      <noscript>
+        <%= link_to Spree.t(:cart), '/cart' %>
+      </noscript>
+      &nbsp;
+    </li>
+    <script>Spree.fetch_cart()</script>
+  </ul>
+</nav>
