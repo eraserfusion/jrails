@@ -10,4 +10,8 @@ module ApplicationHelper
     end
   end
 
+  def imgs(image_link = '')
+    base_link = "https://s3-us-west-2.amazonaws.com/jandj-assets/#{image_link}"
+  end
+
 end
